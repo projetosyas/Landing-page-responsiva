@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="javascript/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo">Food</i>
+       
+           <ul id="nav_list">
+               <li class="nav-item active">
+                   <a href="#home">Inicio</a>
+               </li>
+               <li class="nav-item">
+                <a href="#menu">Cardápio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonials">Avaliações</a>
+            </li>
+           </ul>
+
+           <button class="btn-default">
+               Peça aqui
+           </button>
+
+           <button id="mobile_btn">
+               <i class="fa-solid fa-bars"></i>
+           </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                 <a href="#menu">Cardápio</a>
+             </li>
+             <li class="nav-item">
+                 <a href="#testimonials">Avaliações</a>
+             </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até 
+                <span>você</span>    
+                </h1>
+
+                <p class="description">
+                    Do preparo à entrega, cada detalhe importa. Ingredientes frescos,
+                    receitas cuidadosamente preparadas e muito sabor em cada prato —
+                   tudo isso sem você precisar sair de casa.
+                    
+                 </p>
+
+                 <div id="cta_buttons">
+                     <a href="#" class="btn-default">
+                         Ver cardápio
+                     </a>
+
+                     <a href="tel:+11933555717" id="phone_button">
+                         <button class="btn-default">
+                         <i class="fa-solid fa-phone"></i>
+                         </button>
+                         (11)93355-5717
+                     </a>
+
+                 </div>
+
+                 <div class="social-media-buttons">
+                     <a href="https://wa.me/5511933555717">
+                        <i class="fa-brands fa-whatsapp"></i>  
+                     </a>
+
+                     <a href="https://wa.me/5511933555717">
+                        <i class="fa-brands fa-instagram"></i>  
+                     </a>
+
+                     <a href="https://wa.me/5511933555717">
+                        <i class="fa-brands fa-facebook"></i>  
+                     </a>
+                 </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            
+
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title"> Cardápio </h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3> 
+       
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>      
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Wild Bowl
+                    </h3>
+
+                    <span class="dish-description">Frango, camarão, arroz, gergelim, crocante </span>
+                   
+                   
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+
+
+                    </div>
+               
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>      
+                    </div>
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Grilled Melt 
+                    </h3>
+
+                    <span class="dish-description"> Pão grelhado, queijo derretido, cremoso </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+
+
+                    </div>
+               
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>      
+                    </div>
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Green Blis
+                    </h3>
+
+                    <span class="dish-description"> Kiwi, morango, coco, sementes, verde </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+
+
+                    </div>
+               
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>      
+                    </div>
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Shrimp Noodles
+                    </h3>
+
+                    <span class="dish-description">Camarão, macarrão, tomate, cebolinha, asiático</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+
+
+                    </div>
+               
+                </div>
+                
+
+            </div>
+        
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+            
+            <div id="testimonials_content">
+                <h2 class="section-title">Avaliações</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+        
+                <div id="feedbacks">
+        
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>Sarah Mitchell 
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+                            <p>Melhor delivery que já pedi! Comida chegou quentinha, embalagem impecável e o sabor é simplesmente incrível.</p>
+                        </div>   
+                    </div>
+        
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>Sarah Mitchell 
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+                            <p>Melhor delivery que já pedi! Comida chegou quentinha, embalagem impecável e o sabor é simplesmente incrível.</p>
+                        </div>
+                    </div>
+        
+                    <button class="btn-default">Ver mais avaliações</button>
+        
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/images/wave (1).svg" alt="">
+   
+        <div id="footer_itens">
+            <span id="copyright">
+                &copy 2026 Yasmin de Paula
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
